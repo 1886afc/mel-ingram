@@ -1,0 +1,37 @@
+#home-section {
+    background: url("../img/home-s.jpeg");
+    min-height:500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#about, #research, #projects, #cv{
+    min-height: 75px;
+}
+
+.intro {
+    position: absolute;
+    top: 55%;
+    left:50%;
+    transform: translate(-50%,-50%);
+
+}
+h1  {
+    text-shadow: 0 0 3px black;
+    font-size: 5.2rem;
+    color:ghostwhite;
+}
+h3, h2{
+    color:ghostwhite;
+    text-shadow: 0 0 3px black;
+    padding-top: 15px;
+}
+h5 {
+    color:ghostwhite;
+    text-shadow: 0 0 3px black;
+}
+.fa{
+    color:ghostwhite;
+    padding: 4px;
+    border-radius: 5px;
+
+}

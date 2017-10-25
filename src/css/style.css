@@ -1,16 +1,23 @@
+.navbar {
+    background-color: rgba(1, 0, 0, .5);
+
+
+    border-width: 0px;
+}
+
 #home-section {
-    background: url("../img/home-s.jpeg");
-    min-height:500px;
+    background: url("../img/home-s2.jpeg");
+    min-height:450px;
     background-size: cover;
     background-repeat: no-repeat;
 }
 #about, #research, #projects, #cv{
-    min-height: 75px;
+    min-height: 65px;
 }
 
 .intro {
     position: absolute;
-    top: 55%;
+    top: 45%;
     left:50%;
     transform: translate(-50%,-50%);
 
